@@ -1,0 +1,32 @@
+/*
+  Project colors
+*/
+
+:root {
+  --clr-neutral-100: #f9eddc;
+  --clr-neutral-300: #dfc195;
+  --clr-neutral-500: #967038;
+  --clr-neutral-700: #705f3b;
+  --clr-neutral-900: #3b372e;
+
+  --clr-accent-500: #e8b948;
+
+  --clr-text-300: #5D564D;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Abhaya Libre", serif;
+  color: var(--clr-neutral-100);
+}
+
+body {
+  background-color: var(--clr-neutral-100);
+}
