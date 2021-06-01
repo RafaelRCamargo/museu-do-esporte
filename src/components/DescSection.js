@@ -1,7 +1,7 @@
 import React from "react";
 import "./DescSection.css";
 
-function DescSection() {
+function DescSection(props) {
   return (
     <div className="desc-container">
       <div className="horizontal" data-aos="flip-up" data-aos-delay="200"></div>
@@ -10,11 +10,7 @@ function DescSection() {
         data-aos="fade-left"
         data-aos-delay="400"
       >
-        <h1 className="title">
-          Exposição
-          <br />
-          <span>Italo Cassoli</span>
-        </h1>
+        <h1 className="title">{props.children}</h1>
       </div>
 
       <div className="vertical" data-aos="flip-left" data-aos-delay="200"></div>
