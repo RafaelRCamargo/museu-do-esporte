@@ -1,6 +1,6 @@
 .img-section-container#horz {
   position: relative;
-  top: 80vh;
+  top: 120vh;
   left: 0;
 
   display: grid;
@@ -12,7 +12,7 @@
   margin: 4% 0;
 
   max-width: 100vw;
-  max-height: 80vh;
+  max-height: 120vh;
 
   min-height: 600px;
 }
@@ -47,6 +47,8 @@
   text-align: left;
   line-height: 40px;
   letter-spacing: 0px;
+
+  padding:  3rem 0;
 
   font-size: 1.4rem;
 }
@@ -218,7 +220,7 @@
 
 .img-section-container#vert {
   position: relative;
-  top: 80vh;
+  top: 120vh;
   left: 0;
 
   display: grid;
@@ -230,7 +232,7 @@
   margin: 4% 0;
 
   max-width: 100vw;
-  max-height: 80vh;
+  max-height: 120vh;
 
   min-height: 600px;
 }
@@ -261,6 +263,8 @@
   max-width: 70%;
 
   font-weight: 300;
+
+  padding: 3rem 0;
 
   text-align: left;
   line-height: 40px;
