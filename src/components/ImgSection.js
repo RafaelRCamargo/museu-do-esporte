@@ -3,7 +3,7 @@ import "./ImgSection.css";
 
 function ImgSection(props) {
   let horz = false;
-  if (props.orientation == "horz") {
+  if (props.orientation === "horz") {
     horz = true;
   }
   return (
